@@ -20,6 +20,7 @@ config dhcp 'lan'
 	option netmask '255.255.255.0'
 	option limit '200'
 	option force '1'
+	option leasetime '14d'
 	list ra_flags 'none'
 
 config odhcpd 'odhcpd'
